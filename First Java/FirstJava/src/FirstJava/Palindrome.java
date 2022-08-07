@@ -2,7 +2,7 @@
 package FirstJava;
 
 import java.util.Scanner;
-
+//To find out whether the given String is Palindrome or not
     public class Palindrome {
         public static void main(String[] args) {
             System.out.println("Check whether word is Palindrome or not");
