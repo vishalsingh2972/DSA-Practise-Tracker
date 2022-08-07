@@ -1,5 +1,5 @@
 
-    package FirstJava;
+package FirstJava;
 
 import java.util.Scanner;
 
