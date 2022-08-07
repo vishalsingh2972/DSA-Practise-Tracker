@@ -1,7 +1,7 @@
 package FirstJava;
 
 import java.util.Scanner;
-
+//Input currency in rupees and output in USD
 public class Currency {
     public static void main(String[] args) {
         System.out.println("Converting INR to USD");
