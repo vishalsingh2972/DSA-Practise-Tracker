@@ -9,7 +9,7 @@ public class CalculateOperators {
             while (true) {
                 // take the operator as input
                 System.out.print("Enter the operator: ");
-                char op = in.next().trim().charAt(0);
+                char op = in.next().trim().charAt(2); // Taking Operator to be used as input; operator being used is at a particular index position.
 
                 if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
                     // input two numbers
@@ -43,5 +43,8 @@ public class CalculateOperators {
             }
         }
     }
+
+
+
 
 
