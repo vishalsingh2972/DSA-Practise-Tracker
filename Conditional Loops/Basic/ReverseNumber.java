@@ -8,7 +8,7 @@ public class ReverseNumber  {
         int ans = 0;
          while (sidha>0) {
              int rem = sidha % 10;
-             sidha /=10; // sidha = sidha/10
+            sidha /=10; // sidha = sidha/10 or can also use sidha = (sidha-rem)/10;
 
             ans = ans * 10 + rem;
 
