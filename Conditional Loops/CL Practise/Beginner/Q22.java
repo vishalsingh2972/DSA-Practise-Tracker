@@ -1,7 +1,5 @@
-//Subtract the Product and Sum of Digits of an Integer
-
 import java.util.Scanner;
-
+//Subtract the Product and Sum of Digits of an Integer
 public class Q22 {
     public static void main(String[] args) {
         System.out.println("To find the Difference between Product and Sum of Digits of an Integer");
