@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //Area of Triangle
-public class AreaofTriangle {
+public class Q2 {
     public static void main(String[] args) {
         System.out.println("Finding the Area of the Triangle");
 
