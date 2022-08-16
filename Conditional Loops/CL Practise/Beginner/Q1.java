@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //Area of Circle
-public class AreaofCircle {
+public class Q1 {
     public static void main(String[] args) {
         System.out.println("Finding the Area of the Circle");
         System.out.print("Enter the Radius of the Circle: ");
