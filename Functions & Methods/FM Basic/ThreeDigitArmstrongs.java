@@ -3,13 +3,11 @@ import java.util.Scanner;
 public class ThreeDigitArmstrongs {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
-
-
-        for (int i = 100; i < 1000; i++) {
+        for (int i = 153; i < 1000; i++) {
             if (isArmstrong(i)) {
-                System.out.print(i + " ");
+                System.out.println(i + " is an armstrong number");
             }
+            //else System.out.println(".");
         }
     }
     static boolean isArmstrong(int n) {
@@ -22,7 +20,10 @@ public class ThreeDigitArmstrongs {
             sum = sum + rem * rem * rem;
         }
 
-        return sum == original;
+        if (sum == original) {  // or just write return sum==original;, // here is sum is equal to original it will return true otherwise will return false
+            return true;
+        }
+        else return false;
     }
 }
 
