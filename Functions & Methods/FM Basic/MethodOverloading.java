@@ -1,3 +1,5 @@
+
+
 public class MethodOverloading {
     public static void main(String[] args) {
         //  fun(67); //method/function overloading happens at compile time, at compile time it is going to decide which function to run i.e function overloading at compile time decides which function to run.
