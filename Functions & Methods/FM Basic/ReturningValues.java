@@ -1,9 +1,11 @@
+
+
 import java.util.Scanner;
 
 public class ReturningValues {
     public static void main(String[] args) {
         System.out.println("Before adding");//1
-        int add = addedvalues();//2 ; //7(whatever line 21(or //6) sum is returning will be stored in add)
+        int add = addedvalues();//2 ; //7(whatever line 22(or //6) sum is returning will be stored in add)
         System.out.println(add);//8
         // Instead of writing both (//2 and //8) we can also write just System.out.println(addedvalues());
         System.out.println("After adding");//9
