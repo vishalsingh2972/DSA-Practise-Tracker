@@ -1,3 +1,5 @@
+
+//Swap using Functions //Function Scope Concept
 public class Swap {
     public static void main(String[] args) {
         int a = 40;
