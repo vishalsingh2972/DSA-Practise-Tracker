@@ -5,9 +5,9 @@
 
 
 
-[Lectures][1]
+[📂Lectures][1]
 
-[Assignments][2]
+[✍️Assignments][2]
 
 
 [1]:https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures/ "Assignments"
