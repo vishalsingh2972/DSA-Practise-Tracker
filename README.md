@@ -1,3 +1,15 @@
-                                                                     # DSA-Java-Bootcamp
+# DSA-Java-Bootcamp
 
-https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments
+
+
+
+
+
+[Lectures][1]
+
+[Assignments][2]
+
+
+[1]:https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures/ "Assignments"
+[2]:https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments/ "Lectures"
+
