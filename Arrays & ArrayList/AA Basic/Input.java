@@ -19,34 +19,34 @@ public class Input {
         //System.out.println(arr.length);
 
         // Input using for loops
-//        for (int i = 0; i < arr.length; i++)  // this for loop will take 5 numbers as input
-//        {
-//            System.out.print("Enter index " + i + " array element: ");
-//            arr[i] = in.nextInt();
-//        }
-//        System.out.println(Arrays.toString(arr)); // Method 3) toString() Method (best way to print among all as we get comas and brackets as well in the output)
-
+        for (int i = 0; i < arr.length; i++)  // this for loop will take 5 numbers as input
+        {
+            System.out.print("Enter index " + i + " array element: ");
+            arr[i] = in.nextInt();
+        }
+        System.out.println(Arrays.toString(arr)); // Method 3) toString() Method (best way to print among all as we get comas and brackets as well in the output)
+//
 //        for (int i = 0; i < arr.length; i++) // Method 1) this for loop will print out all the previously entered numbers
 //        {
 //            System.out.print(arr[i] + " ");
 //        }
-// Method 2) for each loop:
+ //Method 2) for each loop:
 //            for (int num : arr) { // for every element in array, print the element
 //                System.out.print(num + " "); //  here num represents element of the array
 //        }
             //        System.out.println(arr[5]); // index out of bound error
 
 //TOPIC 2) ARRAY OF OBJECTS
-        String[] str = new String[4];
-        for (int i = 0; i < str.length; i++) {
-            str[i] = in.next();
-        }
-
-        System.out.println(Arrays.toString(str) + "");
-        // modify
-        str[1] = "Vishal";
-
-        System.out.println(Arrays.toString(str));
+//        String[] str = new String[4];
+//        for (int i = 0; i < str.length; i++) {
+//            str[i] = in.next();
+//        }
+//
+//        System.out.println(Arrays.toString(str) + "");
+//        // modify
+//        str[1] = "Vishal";
+//
+//        System.out.println(Arrays.toString(str));
 
         }
     }
