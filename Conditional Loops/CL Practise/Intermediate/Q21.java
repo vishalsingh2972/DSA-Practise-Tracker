@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//Java program Vowel or consonant
+//Java program Vowel or Consonant
 public class Q21 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
