@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 //Armstrong Number in Java
 public class Q14 {
     public static void main(String[] args) {
