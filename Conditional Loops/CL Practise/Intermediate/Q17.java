@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//Find if a number is a Palindrome or not.
+//Find if a number is a Palindrome or not
 public class Q17  {
     public static void main(String[] args) {
         System.out.println("Check whether word is Palindrome or not");
