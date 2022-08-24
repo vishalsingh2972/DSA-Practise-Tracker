@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 //Perfect number in Java (sum of all factors = number , is a perfect number)
 public class Q22 {
     public static void main(String[] args) {
