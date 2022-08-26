@@ -5,7 +5,7 @@
 
 
 
-[📂 Lectures][1]
+[📂 Lecture Notes][1]
 
 [✍️ Assignments][2]
 
