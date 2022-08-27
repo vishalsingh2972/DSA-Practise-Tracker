@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//LCM of Two Numbers
 public class Q20
 {
     public static void main(String[] args) {
