@@ -50,7 +50,7 @@ public class SearchIn1DArray {
 //        // this line will execute if none of the return statements above have executed
 //        // hence the target not found
 //       //return -1; ////suppose we have -1 as an array element, then which -1 is being printed is difficult to understand,also as -1 can never be an index, but it can be the element of the array,so we replace it with Integer.MAX_VALUE constant
-//        return Integer.MAX_VALUE; //MAX_VALUE represents the maximum positive integer value that can be represented in 32 bits (i.e., 2147483647 )
+//        return Integer.MAX_VALUE; //MAX_VALUE represents the maximum positive integer value that can be represented in 32 bits ( i.e., 2147483647 )
 //                                  //This means that no number of type Integer that is greater than 2147483647 can exist in Java
 //    }
 //}
