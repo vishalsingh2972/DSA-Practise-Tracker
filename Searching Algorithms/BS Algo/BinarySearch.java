@@ -33,14 +33,12 @@ public class BinarySearch {
                 return MID;
             }
 
-
             }
 
 //outside of while, if it doesn't find the element iw will return -1
         return -1;
 
         }
-
 
     }
 
