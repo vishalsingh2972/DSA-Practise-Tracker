@@ -28,7 +28,7 @@ public class BinarySearch {
                 //search on right side
                 start = MID + 1;
             }
-           else { //i.e when TARGET == MID;
+           else { //i.e when TARGET == ARR[MID];
                 //TARGET found
                 return MID;
             }
