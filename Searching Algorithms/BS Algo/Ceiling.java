@@ -7,6 +7,7 @@ public class Ceiling {
     int ans = ceiling(arr, target);
     System.out.println(ans);
 }
+
         // return the index of smallest number >= target
         static int ceiling(int[] arr, int target) {
 
