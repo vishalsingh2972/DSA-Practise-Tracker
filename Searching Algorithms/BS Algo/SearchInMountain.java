@@ -19,11 +19,14 @@ public class SearchInMountain {
         // ascending part returned -1 so element not present in first half so now try to search in second half
         return orderAgnosticBS(arr, target, peak+1, arr.length - 1);
     }
+    
      //Another way to write above if statement (present from line 16 to line 21)
 //    if (firstTry == -1) {
+           // ascending part returned -1 so element not present in first half so now try to search in second half
 //            return orderAgnosticBS(arr, target, peak+1, arr.length - 1);
 //        }
 //        else{
+           // i.e if firstTry does not return -1, i.e when element found in firstTry (or the ascending part), then return the index value of the number
 //            return firstTry;
 //        }
 //    }
