@@ -15,7 +15,7 @@ public class SearchInMountain {
         if (firstTry != -1) {
             return firstTry;
         }
-        // try to search in second half
+        // ascending part returned -1 so element not present in first half so now try to search in second half
         return orderAgnosticBS(arr, target, peak+1, arr.length - 1);
     }
 
