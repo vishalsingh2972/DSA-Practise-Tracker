@@ -7,7 +7,7 @@ public class InfiniteArray {
         //int target = 165; ArrayOutOfBoundException tackled in line 26 :)
         //int target = -10;
        int output = ans(arr,target);
-        if (output==-1){
+        if (output == -1){
             System.out.println("Element not found");
         }
         else {
