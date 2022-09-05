@@ -6,7 +6,13 @@ public class InfiniteArray {
         int target = 10;
         //int target = 165; ArrayOutOfBoundException tackled in line 26 :)
         //int target = -10;
-        System.out.println("Element present at Index : " + ans(arr, target));
+       int output = ans(arr,target);
+        if (output==-1){
+            System.out.println("Element not found");
+        }
+        else {
+           System.out.println("Element present at Index : " + output);
+        }
     }
 
     static  int ans(int[] arr, int target){
