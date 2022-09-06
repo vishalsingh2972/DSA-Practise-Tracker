@@ -52,12 +52,9 @@ public class RotatedBinarySearch {
         }
 
 
-
         public static int binarySearch(int[] ARR, int TARGET, int start, int end){
-
-
             while( start <= end){
-
+                
                 int MID = start + (end-start)/2;
                 if (TARGET < ARR[MID]) {
 
