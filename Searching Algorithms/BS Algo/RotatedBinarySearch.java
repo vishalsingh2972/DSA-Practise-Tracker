@@ -6,6 +6,7 @@ public class RotatedBinarySearch {
 
     }
 
+    
         public static int search(int[] nums, int target) {
             int pivot = findPivot(nums);
             // if you did not find a pivot, it means the array is not rotated
@@ -27,6 +28,7 @@ public class RotatedBinarySearch {
             return binarySearch(nums, target, pivot + 1, nums.length - 1);
         }
 
+    
         public static int findPivot(int[] arr) {
             int start = 0;
             int end = arr.length - 1;
