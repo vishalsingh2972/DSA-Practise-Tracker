@@ -19,7 +19,7 @@ public class E19 {
 
             }
 
-            int max = arr[0]; //or use int max =0; (both working and giving correct/same output on IDE; but max=0 not working on leetcode)
+            int max = arr[0]; //or use int max = 0; (both working and giving correct/same output on IDE; but max=0 not working on leetcode)
             int maxyear = 1950;
             for (int i = 1; i < 101; i++) {
                 arr[i] += arr[i - 1];
