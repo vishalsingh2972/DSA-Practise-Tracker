@@ -33,7 +33,7 @@ public class InfiniteArray {
 // For tackling ArrayOutOfBoundException //
             if(end < arr.length-1){
                 end = end;
-            }else{
+            }else{ //i.e when end > arr.length-1
                 end = arr.length-1;}
 //                                     //
         }
