@@ -36,7 +36,7 @@ public class RotatedBinarySearch {
                 int mid = start + (end - start) / 2;
                 // 5 cases over here (KK used 4 cases, done that on Leetcode)
                 if ( mid>start && mid<end && arr[mid] > arr[mid+1] && arr[mid] > arr[mid - 1]) {
-                    return mid-1;
+                    return mid;
                 }
                 if (mid<end && arr[mid] > arr[start] && arr[mid] > arr[mid + 1] ) {
                     return mid;
