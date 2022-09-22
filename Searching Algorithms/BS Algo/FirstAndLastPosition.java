@@ -19,7 +19,6 @@ public class FirstAndLastPosition {
 
     
     public static int[] searchRange(int[] nums, int target) {
-
         int[] ans = {-1, -1};
         // check for first occurrence of target first
         ans[0] = search(nums, target, true);
