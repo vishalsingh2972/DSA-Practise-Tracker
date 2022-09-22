@@ -33,6 +33,9 @@ public class FirstAndLastPosition {
 //        }
         return ans;
     }
+    
+    
+    
 
     // this function just returns the index value of target
     public static int search(int[] nums, int target, boolean findStartIndex) {
