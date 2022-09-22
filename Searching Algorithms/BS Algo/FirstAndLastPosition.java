@@ -15,9 +15,9 @@ public class FirstAndLastPosition {
 //        int[] arr = {5,7,7,8,9,10};
 //        int target = 8;
         System.out.println(Arrays.toString(searchRange(arr, target)));
-
     }
 
+    
     public static int[] searchRange(int[] nums, int target) {
 
         int[] ans = {-1, -1};
@@ -33,8 +33,6 @@ public class FirstAndLastPosition {
 //        }
         return ans;
     }
-    
-    
     
 
     // this function just returns the index value of target
