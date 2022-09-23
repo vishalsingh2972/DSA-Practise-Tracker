@@ -1,5 +1,5 @@
 import java.util.Arrays;
-//Matrix is sorted in a row wise and column wise manner
+//Matrix is sorted in a row wise and column wise manner (without using Binary Search)
 public class RowColMatrix2D {
     public static void main(String[] args) {
 
