@@ -9,7 +9,7 @@ public class RowColMatrix2D {
                 {28, 29, 37, 49},
                 {33, 34, 38, 50}
         };
-        int target = 49;
+        int target = 37;
         System.out.println(Arrays.toString(search(arr, target)));
         //System.out.println(Arrays.toString(search(arr, 37)));
     }
