@@ -11,7 +11,7 @@ public class RowColMatrix2D {
         };
         int target = 37;
         System.out.println(Arrays.toString(search(arr, target)));
-        //System.out.println(Arrays.toString(search(arr, 37)));
+        //System.out.println(Arrays.toString(search(arr, 37))); //Direct Attack
     }
 
     public static int[] search(int[][] matrix, int target) {
