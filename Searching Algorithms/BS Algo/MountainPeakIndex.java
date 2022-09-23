@@ -5,10 +5,11 @@
 // https://leetcode.com/problems/find-peak-element/
 public class MountainPeakIndex {
     public static void main(String[] args) {
-
+        int  arr[] = {1,2,3,5,8,98,6,3,2};
+        System.out.println(peakIndexInMountainArray(arr));
     }
 
-    public int peakIndexInMountainArray(int[] arr) {
+    public static int peakIndexInMountainArray(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
 
