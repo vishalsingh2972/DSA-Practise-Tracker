@@ -38,7 +38,7 @@ public class SortedMatrix2D {
         //But be cautious, matrix maybe empty (0 rows and 0 columns), so uske liye niche ek check dalna padega
 
         if (rows == 1) {
-            return binarySearch(matrix,0,0,cols-1,target );
+            return binarySearch(matrix,0,0,cols-1,target);
         }
 
         int rStart = 0; //row start
