@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 4, 1, 2};
+        //int[] arr = {5, 3, 4, 1, 2};
+        int[] arr = {1, 2, 3, 4, 5};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -24,7 +25,8 @@ public class BubbleSort {
                 }
             }
             // if you did not swap for a particular value of i, it means the array is sorted hence stop the program
-            if (!swapped) { // !false = true or // if(swapped == false)
+            if (!swapped) { //if swapped values not changing, i.e it remains false so then !false = true
+                // can also be written as if(swapped == false)
                 break;
             }
         }
