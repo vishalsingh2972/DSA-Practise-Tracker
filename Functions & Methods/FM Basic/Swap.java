@@ -18,14 +18,10 @@ public class Swap {
         System.out.println("a value is (inside swap) "+a);
         System.out.println("b value is (inside swap) "+b);
 
-    }
-
+     }
 }
 
-
-
-
-//Normal code for Swap
+//Normal code for Swap 
 /*
 public class Swap {
     public static void main(String[] args) {
@@ -40,3 +36,14 @@ public class Swap {
     }
 }
 */
+
+//Non-Primitive Example passing
+//    String name = "Kunal Kushwaha";
+//    changeName(name);
+//        System.out.println(name);
+//                }
+//
+//static void changeName(String naam) {
+//        naam = "Rahul Rana"; // creating a new object
+// here change made in naam did not reflect in name as here we are not changing the existing object "Kunal Kushwaha" we are creating a new object "Rahul Rana"
+//        }
