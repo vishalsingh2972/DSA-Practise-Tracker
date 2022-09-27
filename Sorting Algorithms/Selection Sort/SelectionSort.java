@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SelectionSort {
     public static void main(String[] args) {
         int[] ARR = {5, 3, 4, 1, 2};
-        System.out.println(Arrays.toString(ARR));
+        System.out.println(Arrays.toString(ARR)); //before changes made in the array
         selection(ARR);
         System.out.println(Arrays.toString(ARR)); //array is non-primitive, so changes made via ref. variable arr will also be visible in original ARR ( or basically changes made in arr will also cause changes in original ARR)
     }
