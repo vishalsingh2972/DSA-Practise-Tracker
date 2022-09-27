@@ -45,5 +45,5 @@ public class Swap {
 //
 //static void changeName(String naam) {
 //        naam = "Rahul Rana"; // creating a new object
-// here change made in naam did not reflect in name as here we are not changing the existing object "Kunal Kushwaha" we are creating a new object "Rahul Rana"
+// here change made in naam did not reflect in name as here we are not making any chnages changing the existing object "Kunal Kushwaha" we are creating a new object "Rahul Rana"
 //        }
