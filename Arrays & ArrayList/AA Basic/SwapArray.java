@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class SwapArray {
     public static void main(String[] args) {
         int[] arr = {1, 3, 23, 9, 18, 56}; //two pointer method (pointers: start and end)
+//        System.out.println(Arrays.toString(arr));
 //        swap(arr, 0, 4);
         reverse(arr); //works for both array having odd number of elements as well as for array having even number of elements
         System.out.println(Arrays.toString(arr));
