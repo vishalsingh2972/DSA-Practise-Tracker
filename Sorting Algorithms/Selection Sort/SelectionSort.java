@@ -5,7 +5,7 @@ public class SelectionSort {
         int[] ARR = {5, 3, 4, 1, 2};
         System.out.println(Arrays.toString(ARR));
         selection(ARR);
-        System.out.println(Arrays.toString(ARR)); //array is non-primitive, so changes made via ref. variable arr will also be visible in original ARR ( or will also cause changes in original ARR)
+        System.out.println(Arrays.toString(ARR)); //array is non-primitive, so changes made via ref. variable arr will also be visible in original ARR ( or basically changes made in arr will also cause changes in original ARR)
     }
     static void selection(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
