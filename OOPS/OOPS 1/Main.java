@@ -1,5 +1,4 @@
 package introduction;
-
 import java.util.Arrays;
 
 public class Main {
@@ -23,7 +22,7 @@ public class Main {
         Student kunal = new Student();
         System.out.println(kunal.rno);
 
-        kunal.rno = 13;
+        kunal.rno = 13; //means rno present inside the kunal object
         kunal.name = "Kunal Kushwaha";
         kunal.marks = 88.5f;
 
