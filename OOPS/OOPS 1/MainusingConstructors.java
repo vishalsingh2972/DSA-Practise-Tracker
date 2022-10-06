@@ -45,9 +45,6 @@ public class MainusingConstructors {
         //change here I changed name of one but the name of two was also changed
         System.out.println(two.name); //then changes will be reflected if we access via two as well as both are pointing to same object in the heap
 
-
-
-
 }
 
 // create a class
