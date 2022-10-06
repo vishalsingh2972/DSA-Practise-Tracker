@@ -44,3 +44,6 @@ public class Main {
 //Also note that the constructor is called when the object is created.
 //(All classes have constructors by default) , Here as we are not providing any constructors ourselves, so Java creates one for us. However, then you are not able to set initial values for object attributes, it will just give default values, in order to initialise values we need to provide constructor ourselves
 //Basically, If we don’t define any constructor inside the class, Java compiler automatically creates a default constructor at compile-time and assigns default values for all variables declared in the class.
+
+
+
