@@ -16,7 +16,7 @@ public abstract class Parent { //if parent body has one or more than 1 (atleast 
         this.age = age;
     //*    VALUE = 2456;
     }
-    //    abstract Parent() { } //error- no we CANNOT create abstract constructors (NOT Possible)
+    //    abstract Parent() { } //error - no we CANNOT create abstract constructors (NOT Possible)
 
 
     abstract void career(); //parents are like just giving a basic idea (just declaring) but implementation i.e. career choice is yours to child class
