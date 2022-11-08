@@ -5,9 +5,9 @@ public class Main implements A, B{
     public void greet() {
 
     }
-    @Override
-    public void fun() {
+//     @Override
+//     public void fun() {
 
-    }
+//     }
 
 }
