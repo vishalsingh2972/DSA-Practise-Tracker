@@ -1,7 +1,5 @@
 package enumExamples;
 
-import javax.crypto.spec.PSource;
-
 public class Basic {
     enum Week implements A, B { //YES enum can implement as many interfaces as we want
                     // BUT enum cannot extend anything else, it cannot be a child class & An enum cannot be a superclass (parent class) also
