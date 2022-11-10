@@ -16,3 +16,7 @@
 ### 👨🏻‍💻 Watch my contribution graph being eaten by 🐍
 
 ![snake animation](https://github.com/vishalsingh2972/vishalsingh2972/blob/output/github-contribution-grid-snake.svg)
+
+<div align="center">
+  <img width="15%" src="https://visitor-badge.glitch.me/badge?page_id=thatbeautifuldream" />
+</div>
