@@ -10,7 +10,7 @@ public class CyclicSort {
       static void sort(int[] arr){
         int i = 0;
         while(i < arr.length){
-           int correctIndex = arr[i] - 1;
+           int correctIndex = arr[i] - 1; //when elements in range [1,N]; in case elements are in range [O,N] then int correctIndex = arr[i]
         //if element not present at correct index swap
             if(arr[i] != arr[correctIndex]){
         swap(arr, i, correctIndex);
