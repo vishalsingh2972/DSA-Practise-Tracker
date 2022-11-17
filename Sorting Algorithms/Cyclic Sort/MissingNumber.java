@@ -28,7 +28,7 @@ class MissingNumber {
         }
 
         // case 2
-        return arr.length; //this one is mandatory as function/method needs to have a return statement (although it runs in case 2 only and in case 1 compiler does not even reach this statement upar wala return execute hojata tab tak case 1 main)
+        return arr.length; //this one is mandatory as function/method needs to have a return statement (although it runs only in case 2 and in case 1 compiler does not even reach this statement upar wala return execute hojata tab tak case 1 main)
     }
 
     static void swap(int[] arr, int first, int second) {
