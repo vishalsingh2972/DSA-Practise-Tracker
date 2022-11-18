@@ -1,3 +1,4 @@
+
 // https://leetcode.com/problems/find-the-duplicate-number/
 // Amazon & Microsoft Question
  class FindDuplicate3 {
