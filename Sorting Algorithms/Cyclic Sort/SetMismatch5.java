@@ -23,7 +23,6 @@ class SetMismatch5 {
             }
         }
 //SECOND, after array is sorted we will find the repeated number and the deleted number and add both these in a new array
-
         for (int index = 0; index < nums.length; index++) {
             if (nums[index] != index + 1) { //as here when [1,N] range, indexValue = nums[i] - 1 ==> nums[i] = indexValue + 1;
                 return new int[] {nums[index], index + 1};
