@@ -5,10 +5,10 @@
         int[] arr = {1, 3, 4, 2, 2};
 //        int[] arr = {3, 1, 3, 4, 2};
 //        int[] arr = {1, 3, 4, 2}; //no duplicates present case will return -1
-        System.out.println(findDuplicateMethod(arr));
+        System.out.println(SingleDuplicateNumber(arr));
     }
 
-    public static int findDuplicateMethod(int[] nums) {
+    public static int SingleDuplicateNumber(int[] nums) {
 //FIRST, we do cyclic sort
         int i = 0;
         while (i < nums.length) {
