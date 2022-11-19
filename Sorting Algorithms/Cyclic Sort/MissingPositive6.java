@@ -8,6 +8,7 @@ class MissingPositive6 {
 //          int[] arr = {3, 4, -1, 1};
 //        int[] arr = {7, 8, 9, 11, 12};
         int[] arr ={7, 1, 2, 3};
+//        int[] arr ={1, 2, 3, 4};
 //        int[] arr = {1};
         System.out.println( firstMissingPositive(arr));
     }
@@ -30,7 +31,7 @@ class MissingPositive6 {
         }
 
         // case 2
-        return arr.length + 1;
+        return arr.length + 1; //when all numbers are there like in case of [1, 2, 3, 4]; then this line will reach so next missing positive number here is 5 i.e. arr.length+1
     }
 
     static void swap(int[] arr, int first, int second) {
