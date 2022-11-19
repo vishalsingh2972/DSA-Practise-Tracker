@@ -31,7 +31,7 @@ class MissingPositive6 {
         }
 
         // case 2
-        return arr.length + 1; //when all numbers are there like in case of [1, 2, 3, 4]; then this line will reach so next missing positive number here is 5 i.e. arr.length+1
+        return arr.length + 1; //when all numbers are there like in case of [1, 2, 3, 4]; then this line will reach so next missing positive number here will be 5 i.e. arr.length+1
     }
 
     static void swap(int[] arr, int first, int second) {
