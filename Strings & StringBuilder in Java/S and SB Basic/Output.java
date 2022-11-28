@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Output {
     public static void main(String[] args) {
-//        System.out.println(56);//here println method is calling the valueOf method , and then valurOf method is calling the toString method i.e. not only for this case but anything you print in println it calls the toString method (basically whatever you put in println does not matter which datatype(here we put 56 jo ki hain int datatype inside println),last main in the end internally in the output it is going to print a string only)
+//        System.out.println(56);//here println method is calling the valueOf method , and then valurOf method is calling the toString method i.e. not only for this case but anything you print in println it calls the toString method (basically whatever you put in println does not matter which datatype(here we put 56 jo ki hain int datatype inside println), last main in the end internally in the output it is going to print a string only)
                                // and BTW here out is a ref. variable in printstream class //println is a method in printstream class
 
 //       System.out.println("Kunal");
