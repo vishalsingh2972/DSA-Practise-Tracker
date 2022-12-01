@@ -4,7 +4,7 @@ public class A {
     protected int num;
 //    private int num; //private, so num can only be accessed via Getters & Setters Method
     //so now since num is private it can ONLY be accessed anywhere in A.java file, Example: getNum method, setNum method etc methods present in A.java file have access to variable num
-     public String name; //public String name;
+    String name; //public String name;
     int[] arr;
 
     public int getNum()         {//Getter //Getter method is public, so it can be accessed from anywhere, Example: from Main.java
