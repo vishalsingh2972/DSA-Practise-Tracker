@@ -50,7 +50,6 @@ class FindDuplicate3 {
         public static int findDuplicate(int[] arr) {
             int i = 0;
             while (i < arr.length) {
-
                 if (arr[i] != i + 1) {
                     int correctIndex = arr[i] - 1;
                     if (arr[i] != arr[correctIndex]) {
@@ -61,8 +60,9 @@ class FindDuplicate3 {
                 }
                 else {
                     i++;
-                }
+                } 
             }
+            
             return -1; //will reach this after exiting while loop
         }
 
