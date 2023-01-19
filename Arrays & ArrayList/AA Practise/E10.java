@@ -29,7 +29,7 @@ public class E10 {
 //        }
 }
 
-//Another easy alternative
+//Another easy alternative (Easiest wala)
 
 //    public static boolean checkIfPangram(String sentence) {
 //        //System.out.println(sentence.indexOf('a')); //output 0 index
