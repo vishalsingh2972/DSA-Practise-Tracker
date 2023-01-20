@@ -12,9 +12,10 @@ public class E10 {
         }
 
         //using character
-        for (char i = 'a'; i <= 'z'; i++) {
+        for (char i = 'a'; i <= 'z'; i++) { 
             if (sentence.contains(String.valueOf(i)) == false) { //or if (!sentence.contains(String.valueOf(i)))
                 return false;
+  // so String.valueOf(i) is converting character value of i to string and contains will check whether this character is present in sentence or not
             }
         }
         return true;
