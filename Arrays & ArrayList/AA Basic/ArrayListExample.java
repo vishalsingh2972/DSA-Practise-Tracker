@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.List;
 
 public class ArrayListExample {
     public static void main(String[] args) {
