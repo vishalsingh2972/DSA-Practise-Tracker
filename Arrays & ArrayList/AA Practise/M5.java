@@ -1,8 +1,18 @@
+import java.util.Arrays;
 //https://leetcode.com/problems/product-of-array-except-self/
 //https://leetcode.com/problems/product-of-array-except-self/discuss/1599115/238.-Product-of-Array-Except-Self%3A-Java-Solution
 public class M5 {
-    class Solution {
-        public int[] productExceptSelf(int[] nums) {
+
+    public static void main(String[] args) {
+
+        int[] arr = {4,5,1,8,2};
+        System.out.println(Arrays.toString(productExceptSelf(arr)));
+        System.out.println(Arrays.toString(productExceptSelf2(arr)));
+
+    }
+    
+//    LONG WAY
+        public static int[] productExceptSelf(int[] nums) {
             int length = nums.length;
             int[] ans = new int[length];
 
@@ -34,6 +44,25 @@ public class M5 {
 
             return ans;
         }
+
+//    OPTIMIZED WAY
+    public static int[] productExceptSelf2(int[] nums) {
+        int[] output = new int[nums.length];
+        for (int i = 0, left = 1; i < nums.length; i++) {
+            output[i] = left;
+            left *= nums[i];
+        }
+        for (int i = nums.length - 1, right = 1; i >= 0; i--) {
+            output[i] *= right;
+            right *= nums[i];
+//            System.out.println(right);
+        }
+        return output;
     }
 
-}
+    }
+
+
+
+
+
