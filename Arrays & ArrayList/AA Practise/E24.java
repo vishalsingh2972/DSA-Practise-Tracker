@@ -37,3 +37,5 @@ public class E24 { //Kadane's Algorithm concept
     }
 
 }
+
+//Note: Given Subarray so it has to be contiguous (https://www.scaler.com/topics/difference-between-subarray-subset-and-subsequence/)
