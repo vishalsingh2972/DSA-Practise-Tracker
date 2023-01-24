@@ -15,7 +15,7 @@ public class E24 { //Kadane's Algorithm concept
         int currentSum = 0;
 //        int maxSum = 0; //will not work when all array elements are negative, so discard
         int maxSum = nums[0]; //will work for ALL CASES...all negative, all positive, some negative some positive...anything will work for all
-//        int maxSum = Integer.MIN_VALUE; //even this works for ALL CASES
+//        int maxSum = Integer.MIN_VALUE; //even this works for ALL CASES //It is stated in problem that the array elements can be negative too, so if you use msum = 0, then the maximum value will be of 0, so to pass that case also, we have made the value of msum the lowest possible value possible which is INT_MIN
 
 
         for(int i = 0; i < nums.length; i++){
