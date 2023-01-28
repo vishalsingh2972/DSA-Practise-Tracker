@@ -18,12 +18,17 @@ public class H1 {
 //        System.out.println(points[1][0]);
 //        System.out.println(points[1][1]);
     }
-    
-    public static int findMaxValueOfEquation(int[][] points, int k) {
+
+    public static int findMaxValueOfEquation(int[][] points, int k) { //Brute Force (Time Limit Exceeded)
         ArrayList<Integer> X = new ArrayList<>();
         int max = Integer.MIN_VALUE;
         for(int i = 0; i<points.length-1; i++){
             for(int j = i+1; j<points.length; j++){
+
+                if ( Math.abs(points[i][0] - points[j][0]) > k) {
+                    continue;
+                }
+
                 if(Math.abs(points[i][0] - points[j][0]) <= k){ //|x1 - x2| <= k
                     X.add(Math.abs(points[i][0] - points[j][0]) + points[i][1] + points[j][1]); //add all valid (|x1 - x2| + y1 + y2) values in arraylist X
                                                                                                 //i.e all sum (|x1 - x2| + y1 + y2) stored in arraylist X
