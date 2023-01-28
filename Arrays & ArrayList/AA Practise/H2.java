@@ -21,7 +21,8 @@ class H2 {
                 i++;
             }
         }
-
+        System.out.println(Arrays.toString(arr));
+        
         // search for first missing number
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index + 1) {
