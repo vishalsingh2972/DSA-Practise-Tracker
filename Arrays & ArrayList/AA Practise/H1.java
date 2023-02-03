@@ -24,11 +24,10 @@ public class H1 {
 
             for (int i = 0; i < points.length - 1; i++) {
                 for (int j = i + 1; j < points.length; j++) {
-
+                    
                     if (Math.abs(points[i][0] - points[j][0]) > k) { //|x1 - x2| > k cases
                         continue;
                     }
-
                     if (Math.abs(points[i][0] - points[j][0]) <= k) { //|x1 - x2| <= k cases
                         int equationValue = Math.abs(points[i][0] - points[j][0]) + points[i][1] + points[j][1]; // |x1 - x2| + y1 + y2
                         max = Math.max(equationValue, max); // find max from all |x1 - x2| + y1 + y2 values
@@ -38,4 +37,7 @@ public class H1 {
             return max; //return that max value
         }
     }
+
+
+
 
