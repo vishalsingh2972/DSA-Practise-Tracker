@@ -18,7 +18,6 @@ public class H1 {
 //        System.out.println(points[1][0]);
 //        System.out.println(points[1][1]);
     }
-
     public static int findMaxValueOfEquation(int[][] points, int k) { //Brute Force (Time Limit Exceeded)
             int max = Integer.MIN_VALUE;
 
@@ -37,7 +36,6 @@ public class H1 {
             return max; //return that max value
         }
     }
-
 
 
 
