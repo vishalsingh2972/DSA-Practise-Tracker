@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 //https://leetcode.com/problems/max-value-of-equation/
-public class H1 {
+public class H1 { //Passing all test cases but time limit error so try this after completing concepts of " Priority Queue / Heap"  or "monotonic queue"  or "sliding window"
     public static void main(String[] args) {
 
 //        int points[][] = new int[][]{{1, 3}, {2, 0}, {5, 10}, {6, -10}};
