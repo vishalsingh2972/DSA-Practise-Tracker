@@ -2,21 +2,21 @@ import java.util.Arrays;
 
 public class M6 {
     public static void main(String[] args) {
-//        int[] arr = {};
+        int[] arr = {}; //empty array case 
+        int target = 6;
+
+//        int[] arr = {5,7,7,7,9,10}; //start occurrence and end index not present case
 //        int target = 6;
 
-//        int[] arr = {5,7,7,7,9,10};
-//        int target = 6;
+//        int[] arr = {5,7,7,7,9,10}; //start occurrence and end occurrence different index case
+//        int target = 7;
 
-        int[] arr = {5,7,7,7,9,10};
-        int target = 7;
-
-//        int[] arr = {5,7,7,8,9,10};
+//        int[] arr = {5,7,7,8,9,10}; //start occurrence and end occurrence same index case
 //        int target = 8;
 
         System.out.println(Arrays.toString(searchRange(arr, target)));
     }
-    
+
     public static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
         // check for first occurrence of target first
