@@ -133,7 +133,7 @@
     - [Pop efficient](https://youtu.be/rHQI4mrJ3cg)
     - [Circular Queue](https://youtu.be/rHQI4mrJ3cg)
     - Queue using Stack and Vice versa
-    - Interview problems
+    - [Interview problems](https://youtu.be/S9LUYztYLu4)
 - Trees
     - Introduction
     - Binary Trees
