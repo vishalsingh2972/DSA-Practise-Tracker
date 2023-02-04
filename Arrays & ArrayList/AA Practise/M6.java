@@ -20,9 +20,9 @@ public class M6 {
     public static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
         // check for first occurrence of target element first
-        ans[0] = search(nums, target, true);
+        ans[0] = binarySearch(nums, target, true);
         if (ans[0] != -1) { //if found first occurrence of target element then now search for second occurrence of the target element
-            ans[1] = search(nums, target, false);
+            ans[1] = binarySearch(nums, target, false);
         }
         //below else statement is extra, written for understanding better (ye else nahi likhe to bhi chalta)
 //        else //i.e when ans[0] == -1, i.e. first occurrence not found case
@@ -31,10 +31,9 @@ public class M6 {
 //        }
         return ans;
     }
-
-
+    
     // this function just returns the index value of target
-    public static int search(int[] nums, int target, boolean findStartIndex) {
+    public static int binarySearch(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
