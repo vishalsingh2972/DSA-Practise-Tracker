@@ -25,7 +25,7 @@ public class M6 {
             ans[1] = search(nums, target, false);
         }
         //below else statement is extra, written for understanding better (ye else nahi likhe to bhi chalta)
-//        else //i.e when ans[0] == -1 i.e. first occurrence not found case
+//        else //i.e when ans[0] == -1, i.e. first occurrence not found case
 //        {
 //            ans[1] = -1;
 //        }
