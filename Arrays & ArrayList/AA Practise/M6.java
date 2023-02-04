@@ -19,9 +19,9 @@ public class M6 {
 
     public static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
-        // check for first occurrence of target first
+        // check for first occurrence of target element first
         ans[0] = search(nums, target, true);
-        if (ans[0] != -1) {
+        if (ans[0] != -1) { //if found first occurrence of target element then now search for second occurrence of the target element
             ans[1] = search(nums, target, false);
         }
         //below else statement is extra, written for understanding better (ye else nahi likhe to bhi chalta)
