@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class M6 {
     public static void main(String[] args) {
 //        int[] arr = {}; //empty array case
@@ -31,7 +31,7 @@ public class M6 {
 //        }
         return ans;
     }
-    
+
     // this function just returns the index value of target
     public static int binarySearch(int[] nums, int target, boolean findStartIndex) {
         int ans = -1;
