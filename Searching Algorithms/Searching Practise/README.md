@@ -27,7 +27,7 @@
 
 ## Medium
 1. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-2 [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+2. [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 3. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 4. [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 5. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
