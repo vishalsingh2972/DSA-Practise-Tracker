@@ -5,6 +5,7 @@ public class SearchInStrings {
         String name = "Vishal";
         char Target = 'i';
         //System.out.println(search(name, Target));
+        //System.out.println(search2(name, Target));
         System.out.println(Arrays.toString(name.toCharArray())); // This statement is going to create a character array (i.e here it is converting string input into a character array)
 
                                                  //java string toCharArray() method converts this string into character array
