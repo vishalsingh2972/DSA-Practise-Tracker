@@ -4,7 +4,7 @@ public class BinarySearch {
         int[] arr = {-18-5,-4,0,2,5,6,9,54,96,101}; //sorted ascending array considered
         int target = -23;
         //int target = 54;
-        System.out.println(BinarySearch(arr, target));
+        System.out.println(BinarySearch(arr, target)); //returning the index of element where the target is present
 
         System.out.println("Element found at index " + BinarySearch(arr, target));
 
