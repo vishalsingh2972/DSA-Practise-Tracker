@@ -14,6 +14,9 @@ public class SearchInStrings {
     }
 
 //    static boolean search2(String str, char target) {
+             ////System.out.println(str)
+             ////System.out.println(str.toCharArray())
+             ////System.out.println(Arrays.toString(str.toCharArray()));
 //        if (str.length() == 0) {
 //            return false;
 //        }
