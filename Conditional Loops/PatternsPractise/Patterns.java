@@ -29,7 +29,6 @@ public class Patterns {
         }
     }
 
-
     public static void pattern17(int n) {
         for (int row = 1; row < 2*n; row++) {
             int c = row > n ? 2*n - row : row;
