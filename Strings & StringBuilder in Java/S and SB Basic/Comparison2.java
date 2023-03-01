@@ -3,7 +3,7 @@ public class Comparison2 {
 
 //Example 1
         String a = "hello world!"; //inside string pool
-        String b = "hello" + " world!"; //again adding will check, as already present in string pool,so even b will point to same object that a was pointing to
+        String b = "hello" + " world!"; //again adding will check, as already present in string pool,so even b will point to same object that a was pointing to //so again b also inside string pool
 //        System.out.println(a==b);
 
         String S1 = "This is"; //inside string pool
