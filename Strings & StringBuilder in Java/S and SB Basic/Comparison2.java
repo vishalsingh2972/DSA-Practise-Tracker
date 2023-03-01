@@ -4,7 +4,7 @@ public class Comparison2 {
 //Example 1
         String a = "hello world!"; //inside string pool
         String b = "hello" + " world!"; //again adding will check, as already present in string pool,so even b will point to same object that a was pointing to //so again b also inside string pool
-                                        //now a and b pointing to same object inside string pool
+                                        //now a and b both pointing to same object inside string pool
 //        System.out.println(a==b);
 
         String S1 = "This is"; //inside string pool
@@ -23,7 +23,7 @@ public class Comparison2 {
 
         String s4 = s1 + s2; //not present in string pool, stored outside string pool
 
-        String s5 = "abc" + "def"; //inside string pool //now s5 and s3 pointing to same object inside string pool
+        String s5 = "abc" + "def"; //inside string pool //now s5 and s3 both pointing to same object inside string pool
 
         System.out.println(s3==s4); //gives false //s3 is in string pool BUT s4 is in heap only, but it is present outside string pool
         System.out.println(s3==s5); //gives true //both s3 and s5 inside string pool
