@@ -23,7 +23,7 @@ public class E16 {
 
         int start = 0;
         int end = max; //when we put end = max instead of putting end = nums.length the size of binarySearch Array reduces
-                       //for example for {0,0,2,0,2}, if we put end = nums.length, the search size would we array of size 0 to 5 (6 elements ,in these elements some elements will be redundant like in this case elements 3, 4, 5 will give count 0 so waste of taking them instead better to eliminate them beforehand i.e. before even starting binary search), so instead if we use end = max, the search size will be 0 to 2 (3 elements only) //so we are also reducing the number of comparisons before starting binary search from log6 to log3 in this case as we are reducing array size from 6 elements to 3 elements before even starting binary search
+                       //for example for {0,0,2,0,2}, if we put end = nums.length, the search size would we array of size 0 to 5 (6 elements ,in these elements some elements will be redundant like in this case elements 3, 4, 5 will give count 0 so waste of taking them instead better to eliminate them beforehand i.e. before even starting binary search), so instead if we use end = max, the search size will be 0 to 2 (3 elements only) //so we are also reducing the number of comparisons even before starting binary search from log6 to log3 in this case as we are reducing array size from 6 elements to 3 elements before even starting binary search
 
         while(start <= end) {
 
