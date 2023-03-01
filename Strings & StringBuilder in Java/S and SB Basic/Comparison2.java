@@ -20,7 +20,7 @@ public class Comparison2 {
         String s2 = "def"; //inside string pool
         String s3 = "abcdef"; //inside string pool
 
-        String s4 = s1 + s2; //not present in string pool, outside string pool
+        String s4 = s1 + s2; //not present in string pool, stored outside string pool
 
         String s5 = "abc" + "def"; //inside string pool
 
