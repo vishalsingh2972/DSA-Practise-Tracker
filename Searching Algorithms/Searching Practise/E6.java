@@ -7,7 +7,6 @@ public class E6 {
 
     }
 
-
     public static int arrangeCoins(int n) {
 
         long start = 1;
