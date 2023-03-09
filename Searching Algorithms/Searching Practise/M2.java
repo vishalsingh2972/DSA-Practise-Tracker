@@ -45,7 +45,7 @@ public class M2 {
 //EXPLANATION        //if we found nums[mid] is neither equal to nums[mid-1] i.e its before index element nor equal to nums[mid+1] i.e its after index element, also given that array is sorted so nums[mid] does not have any other equal pair element elsewhere as well ,so nums[mid] is the number without pair element so that should be our answer
                 return nums[mid];
             }
-            
+           
         }
         return nums[start];
     }
