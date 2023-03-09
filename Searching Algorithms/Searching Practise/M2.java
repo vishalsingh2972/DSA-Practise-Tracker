@@ -7,7 +7,7 @@ public class M2 {
 //        int[] arr = {1, 1, 2};
         int[] arr = {1, 2, 2, 3, 3};
 
-//*IMP* Note: In a sorted array having a pairs of integers(1,1, 2,2, 3,3 ....etc), in each pair the 1st element of the pair always lies on even index and the 2nd element of the pair always lies on odd index
+//*IMP* Note: In a sorted array having a pairs of integers(1,1, 2,2, 3,3 ....etc), in each pair the 1st element of every pair always lies on even index and the 2nd element of every pair always lies on odd index
 
         System.out.println(singleNonDuplicate(arr));
 
