@@ -16,13 +16,10 @@ public class ArraysInHeapMemory {
         System.out.println(Arrays.toString(temp)); //temp is pointing to a clone array of nums1, i.e clone array having same values but stored at a different location in the heap memory //basically num1 and temp although have same values/elements BUT are 2 different objects/arrays present at 2 different locations in the heap
 
 
-
 //See as shown below memory address for nums1 and b will be same (as they are present at same location) whereas memory address of nums1 and temp will be different (as they are present at different location)
         System.out.println(nums1); //[I@58372a00
         System.out.println(b);     //[I@58372a00
         System.out.println(temp);  //[I@4dd8dc3
-
-
-
+        
     }
 }
