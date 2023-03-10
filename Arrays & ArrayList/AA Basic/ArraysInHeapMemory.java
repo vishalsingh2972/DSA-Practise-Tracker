@@ -4,7 +4,7 @@ public class ArraysInHeapMemory {
     public static void main(String[] args) {
         int[] nums1 = {9,3,5,1,7,4};
         int[] b = nums1; //b also pointing to same array as nums1 in heap memory
-        int[] temp = nums1.clone(); //clone having same values but stored at a different location in the heap memory , hence temp although has same values as nums1, BUT temp pointing to a different array/object or basically pointing to a different location in heap memory than compared to nums1 location in heap memory
+        int[] temp = nums1.clone(); //clone having same values but stored at a different location in the heap memory , hence temp although has same values as nums1, BUT temp pointing to a different array/object or basically pointing to a different location in heap memory than compared to nums1 array location in heap memory
 
         System.out.println(Arrays.toString(nums1));
         System.out.println(Arrays.toString(b));
