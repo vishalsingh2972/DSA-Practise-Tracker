@@ -1,6 +1,6 @@
 import java.util.Arrays;
 //BRUTE FORCE
-public class trial {
+public class M11 {
     public static void main(String[] args) {
 
         int[] nums1 = {1,10,4,4,2,7};
