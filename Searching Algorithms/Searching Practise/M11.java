@@ -4,15 +4,16 @@ public class M11 {
 
     public static void main(String[] args) {
 
-        int[] nums1 = {1,10,4,4,2,7};
-        int[] nums2 = {9,3,5,1,7,4};
+//        int[] nums1 = {1,10,4,4,2,7};
+//        int[] nums2 = {9,3,5,1,7,4};
 
-//        int[] nums1 = {1,7,6};
-//        int[] nums2 = {2,3,6};
+        int[] nums1 = {1,7,6};
+        int[] nums2 = {2,3,6};
 
         //System.out.println(BRUTEminAbsoluteSumDiff(nums1,nums2)); //Brute Force using Binary Search and Floor and Ceiling concepts
 
         System.out.println(minAbsoluteSumDiff(nums1,nums2));
+
     }
 
     //Optimised Approach
@@ -22,39 +23,43 @@ public class M11 {
 
         int[] sortedNums1 = nums1.clone();
         Arrays.sort(sortedNums1); //in which we will be doing Binary Search
+
         for (int i = 0; i < n; i++) {
             int x = Math.abs(nums1[i] - nums2[i]);
             int y = binarySearch(sortedNums1, nums2[i]);
             sum = sum % 1000000007 + x;
+//            sum = sum + x;
             redMax = Math.max(x - y, redMax);
         }
+
+        System.out.println(Arrays.toString(sortedNums1));
         //System.out.println((sum - redMax)); //this also will give same answer but as asked in question we put modulo (check note below)
         return (sum + 1000000007 - redMax) % 1000000007; //In simple short words we are providing modulo or 1000000007 or 10^9 + 7, so that our answer does not exceed a particular limit, like in case of higher input values the answer value may exceed the limit so in order to avoid that exceeding of limit we are using modulo in the answer
                                                          //Basically to avoid integer overflow we are using modulo
+
+        //return (sum  - redMax) ;
     }
 
     public static int binarySearch(int[] arr, int target) {
-        int l = 0, r = arr.length - 1;
-        if (target >= arr[r]) {
-            return target - arr[r];
+        int start = 0, end = arr.length - 1;
+        if (target >= arr[end]) {
+            return target - arr[end];
         }
-        while (l < r) {
-            int mid = l + (r - l) / 2;
+        while (start < end) {
+            int mid = start + (end - start) / 2;
             if (arr[mid] == target)
                 return 0;
             else if (arr[mid] < target) {
-                l = mid;
-            } else {
-                r = mid;
+                start = mid;
+            } else { //arr[mid] > target case
+                end = mid;
             }
-            if (l + 1 == r) {
-                return Math.min(Math.abs(target - arr[l]), Math.abs(target - arr[r]));
+            if (start + 1 == end) {
+                return Math.min(Math.abs(target - arr[start]), Math.abs(target - arr[end]));
             }
         }
-        return Math.abs(target - arr[l]);
+        return Math.abs(target - arr[start]);
     }
-
-
 
 
 
