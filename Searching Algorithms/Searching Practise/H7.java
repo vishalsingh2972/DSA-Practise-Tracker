@@ -47,7 +47,7 @@ public class H7 {
 
         while(start <= end){
 
-             mid =  start + (end-start)/2;
+            mid =  start + (end-start)/2;
 
             if(clone.get(mid) < target){
                 start = mid + 1;
