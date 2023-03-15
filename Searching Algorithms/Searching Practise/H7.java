@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
 //https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/
 public class H7 {
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class H7 {
             clone.add(nums[i]);
         }
         // for(int num: nums) clone.add(num); //or can also do this directly
-
+        
         Collections.sort(clone); //Like we use Arrays.sort() for arrays, for sorting ArrayList we use Collections.sort()
 
         for(int i = 0; i < n; i++){
