@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-//https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/
+//https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 public class H7 {
     public static void main(String[] args) {
 
