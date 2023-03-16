@@ -1,7 +1,19 @@
 //https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArrayLargestSum {
-    class Solution {
-        public int splitArray(int[] nums, int m) {
+    public static void main(String[] args) {
+
+        int[] nums1 = {7,2,5,10,8};
+        int k1 = 2;
+
+        int[] nums2 = {1,2,3,4,5};
+        int k2 = 2;
+
+        System.out.println(splitArray(nums1,k1));
+        System.out.println(splitArray(nums2,k2));
+
+    }
+
+    public static int splitArray(int[] nums, int m) {
             int start = 0;
             int end = 0;
 
@@ -38,5 +50,5 @@ public class SplitArrayLargestSum {
             }
             return end; // here start == end
         }
-    }
+
 }
