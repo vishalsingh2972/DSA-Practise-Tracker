@@ -3,7 +3,7 @@ public class SplitArrayLargestSum {
     public static void main(String[] args) {
 
         int[] nums1 = {7,2,5,10,8};
-        int k1 = 2;
+        int k1 = 2; //number of splits i.e here we are required to split nums1 into 2 parts
 
         int[] nums2 = {1,2,3,4,5};
         int k2 = 2;
