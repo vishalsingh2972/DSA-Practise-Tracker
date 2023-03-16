@@ -11,7 +11,7 @@ public class H8 {
         int noOfPieces2 = k2 + 1;
 
         int[] sweetness3 = {1,2,2,1,2,2,1,2,2};
-        int k3 = 1;
+        int k3 = 2;
         int noOfPieces3 = k3 + 1;
 
 //        int[] sweetness4 = {1,2,2,1,2,2,1,2,2};
