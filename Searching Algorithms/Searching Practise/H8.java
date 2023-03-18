@@ -47,7 +47,7 @@ public class H8 {
             int cuts = 0; //initially we are starting with 0 cuts (i.e. till now nobody got any chocolate piece, no cutting has started yet so cuts = 0 initially) and as loop progresses, cuts will be made which will lead to making of pieces of chocolate, these pieces will then be divided among all
             for (int i = 0; i<nums.length; i++) {
                 if (sum + nums[i] > mid) {
-                    // you cannot add this in this subarray, make new cut i.e. new piece formed
+                    // you cannot add this in this subarray, make new cut i.e. new piece(subarray) formed
                     cuts++;
                     // Also, from new piece onwards we will again start calculating sum, so no need of previous sum value that we calculated so now set sum = 0 and continue the journey
                     sum = 0;
