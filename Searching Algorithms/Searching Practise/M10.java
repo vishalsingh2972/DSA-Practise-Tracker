@@ -60,14 +60,14 @@ public class M10 {
            if(piles[i] <= mid ){
                hours++;
            }
-           else if (piles[i] > mid){
+           else if (piles[i] > mid) {
 
-               if(piles[i]%mid == 0){
-                   hours = hours + piles[i]/mid;
+               if (piles[i] % mid == 0) {
+                   hours = hours + piles[i] / mid;
                }
-               else {
-                   hours = hours + piles[i]/mid + 1;
-               }
+               //else{
+               hours = hours + piles[i] / mid + 1;
+//           }
            }
 
         }
