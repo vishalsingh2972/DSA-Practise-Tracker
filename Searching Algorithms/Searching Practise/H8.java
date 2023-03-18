@@ -15,16 +15,12 @@ public class H8 {
         int k3 = 2;
         int noOfPieces3 = k3 + 1;
 
-//        int[] sweetness4 = {1,2,2,1,2,2,1,2,2};
-//        int k4 = 1;
-//        int noOfPieces4 = k4 + 1;
-
         System.out.println(splitChocolate(sweetness, noOfPieces));
 
         System.out.println(splitChocolate(sweetness2, noOfPieces2));
 
         System.out.println(splitChocolate(sweetness3, noOfPieces3));
-//        System.out.println(splitChocolate(sweetness4,noOfPieces4));
+
 
     }
 
