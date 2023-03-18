@@ -21,7 +21,6 @@ public class H8 {
 
         System.out.println(splitChocolate(sweetness3, noOfPieces3));
 
-
     }
 
     public static int splitChocolate(int[] nums, int m) { //given as "public static int maximizeSweetness(int[] nums, int m) {" in question
