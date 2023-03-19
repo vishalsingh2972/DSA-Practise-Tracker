@@ -134,10 +134,10 @@ public class M10 {
 //           }
 //           else { // (piles[i] > mid)
 //
-//               if (piles[i] % mid == 0) {
+//               if (piles[i] % mid == 0) { //multiples of mid, numbers which are divisible by mid and do not leave a remainder, remainder = 0
 //                   hours = hours + piles[i] / mid;
 //               }
-//               else{
+//               else{ //(piles[i] % mid != 0) //non multiples of mid, numbers which are not divisible by mid and leave a remainder, remainder != 0
 //               hours = hours + piles[i] / mid + 1;
 //           }
 //           }
