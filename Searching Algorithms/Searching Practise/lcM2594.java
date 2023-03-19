@@ -18,6 +18,8 @@ public class lcM2594 {
         long end = (long) Math.pow(10,14); //max limit of time taken to repair by each rank = max(rank) * max(cars allotted)^2 = 10^2 * (10^6) ^2 = 10^14
         long ans = 0;
 
+        int n = ranks.length; //writing this beforehand to make i<n loop run faster
+
 //        System.out.println("end " + end);
         while (start <= end) {
 
@@ -25,7 +27,7 @@ public class lcM2594 {
             long sum = 0; //sum of all cars repaired by all in total
 
 
-            for (int i = 0; i < ranks.length; i++) {
+            for (int i = 0; i < n; i++) {
                 sum = sum + (long) Math.sqrt(mid / ranks[i]); // time taken (mid) = rank (ranks[i]) * n^2 (cars allotted)^2...so then n = squareroot(time taken/rank)) = squareroot(mid/rank[i))
             }
 
