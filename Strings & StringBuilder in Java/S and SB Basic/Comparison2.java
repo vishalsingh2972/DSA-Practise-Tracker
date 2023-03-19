@@ -25,8 +25,8 @@ public class Comparison2 {
 
         String s5 = "abc" + "def"; //inside string pool //now s5 and s3 both pointing to same object inside string pool
 
-        System.out.println(s3==s4); //gives false //s3 is in string pool BUT s4 is in heap only, but it is present outside string pool
-        System.out.println(s3==s5); //gives true //both s3 and s5 inside string pool
+        //System.out.println(s3==s4); //gives false //s3 is in string pool BUT s4 is in heap only, but it is present outside string pool
+        //System.out.println(s3==s5); //gives true //both s3 and s5 inside string pool
 //        System.out.println(s3.equals(s4)); //gives true as location chahe jo bhi ho .equals checks only content same hain ya nahi, as although s3 and s4 are present at different locations [one present inside string pool(s3), and other although present in heap only but present outside string pool(s4)], dono s3 and s4 ke andar ka content same hain, so that's why .equals true deta
 //        System.out.println(s3.equals(s5)); //aur s3 and s5 to dono same object ko hi point kar rahe hai to obviously content same/ek hi hoga dono ka so isliye .equals true deta as both s3 and s5 are both pointing to the same object in the heap present inside the string pool
 
@@ -34,6 +34,20 @@ public class Comparison2 {
 //Note: https://stackoverflow.com/questions/61588647/how-is-string-concatenation-working-in-following
         //https://stackoverflow.com/questions/75601214/why-is-string-concatenation-giving-true-for-one-case-and-false-for-another?noredirect=1#comment133379699_75601214
 
+//Example 3
+
+        String k1 = "Java";
+        String k2 = new String("Java");
+        String k3 = new String("Java");
+
+        System.out.println(k1==k2);
+        System.out.println((k1.equals(k2)));
+
+        System.out.println(k1==k2.intern());
+        System.out.println(k2==k3.intern());
+
+//https://www.programsbuzz.com/interview-question/difference-between-intern-and-equals-string-methods-java
+        
     }
 }
 
