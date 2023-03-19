@@ -15,7 +15,7 @@ public class lcM2594 {
     public static long repairCars(int[] ranks, int cars) {
 
         long start = 1;
-        long end = (long) Math.pow(10,14); //max limit of each rank = max(rank) * max(cars allotted)^2 = 10^2 * (10^6) ^2 = 10^14
+        long end = (long) Math.pow(10,14); //max limit of each rank = max(rank) * max(cars allotted)^2 = 10^2 * (10^6) ^2 = 10^14 
         long ans = 0;
 
 //        System.out.println("end " + end);
@@ -26,7 +26,7 @@ public class lcM2594 {
 
 
             for (int i = 0; i < ranks.length; i++) {
-                sum = sum + (long) Math.sqrt(mid / ranks[i]); // time taken (mid) = rank (ranks[i]) * n^2 (cars allotted)^2...this sum is n value = squareroot(time taken/rank)
+                sum = sum + (long) Math.sqrt(mid / ranks[i]); // time taken (mid) = rank (ranks[i]) * n^2 (cars allotted)^2...so then n = squareroot(time taken/rank)) = squareroot(mid/rank[i))
             }
 
             if (sum >= cars) {
