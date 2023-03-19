@@ -1,6 +1,5 @@
 //https://leetcode.com/problems/minimum-time-to-repair-cars/
 public class lcM2594 {
-
     public static void main(String[] args) {
 
         int[] ranks = {4, 2, 3, 1};
