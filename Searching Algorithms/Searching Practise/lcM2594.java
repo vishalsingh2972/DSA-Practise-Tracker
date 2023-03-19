@@ -15,7 +15,7 @@ public class lcM2594 {
     public static long repairCars(int[] ranks, int cars) {
 
         long start = 1;
-        long end = (long) Math.pow(10,14); //max limit of each rank = max(rank) * max(cars allotted)^2 = 10^2 * (10^6) ^2 = 10^14 
+        long end = (long) Math.pow(10,14); //max limit time taken to repair by each rank = max(rank) * max(cars allotted)^2 = 10^2 * (10^6) ^2 = 10^14
         long ans = 0;
 
 //        System.out.println("end " + end);
