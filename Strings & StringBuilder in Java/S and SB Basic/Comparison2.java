@@ -36,18 +36,27 @@ public class Comparison2 {
 
 //Example 3
 
-        String k1 = "Java";
-        String k2 = new String("Java");
-        String k3 = new String("Java");
+        //k1 and k2 ke names same hain
+        String k1 = "Java"; //k1 is in String Pool
+        String k2 = new String("Java"); //k2 is in heap but outside of String Pool
 
-        System.out.println(k1==k2);
-        System.out.println((k1.equals(k2)));
+        System.out.println(k1==k2); //will compare location, as k1(in String Pool) and k2(in heap only but outside String Pool) isliye false
+        System.out.println((k1.equals(k2))); //will compare only value, location chahe jo bhi ho, dono main value same hain isliye true
 
         System.out.println(k1==k2.intern());
-        System.out.println(k2==k3.intern());
+// When comparing k1 and k2 using the == operator, it returns *false* since they have different memory addresses. //currently k1 is in String Pool and k2 is in heap but outside String Pool
+// However, when we use the intern() method on k2, it returns the string object that is in the string pool or adds it to the pool and returns the new object. //k2 is added to String Pool
+// When we compare k1 and k2.intern() using the == operator, it returns *true* because both references now refer to the same object in the string pool. //now both k1 and k2 are present inside String Pool or have same address i.e. both k1 and k2 now pointing to same object in the String Pool inside the heap memory
 
-//https://www.programsbuzz.com/interview-question/difference-between-intern-and-equals-string-methods-java
-        
+        //l1 and l2 ke names different hain
+        String l1 = "python"; //in heap inside String Pool
+        String l2 = new String("PYTHON"); //in heap but outside String Pool
+
+        System.out.println(l1==l2); //false as different locations in heap
+        System.out.println(l1.equals(l2)); //false as value is different for both
+        System.out.println(l1==l2.intern());//now l2 is added to the String Pool, but still l1 and l2 values are different, so l2 is added inside the String Pool but at a different location than l1, i.e. l1 and l2 are different objects and are both present at 2 different locations even inside the String Pool
+
+//https://www.linkedin.com/feed/update/urn:li:groupPost:3983267-7043062235493011457?commentUrn=urn%3Ali%3Acomment%3A%28groupPost%3A3983267-7043062235493011457%2C7043139835951210496%29
     }
 }
 
