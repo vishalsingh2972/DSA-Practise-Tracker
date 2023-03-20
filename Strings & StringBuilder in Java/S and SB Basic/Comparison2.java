@@ -43,7 +43,7 @@ public class Comparison2 {
         System.out.println(k1==k2); //will compare location, as k1(in String Pool) and k2(in heap only but outside String Pool) isliye false
         System.out.println((k1.equals(k2))); //will compare only value, location chahe jo bhi ho, dono main value same hain isliye true
 
-        System.out.println(k1==k2.intern());
+        System.out.println(k1==k2.intern());//now k2 is added to the String Pool and value of k1 and k2 is same so both k1 and k2 will point to the same object in the String Pool inside the heap memory
 // When comparing k1 and k2 using the == operator, it returns *false* since they have different memory addresses. //currently k1 is in String Pool and k2 is in heap but outside String Pool
 // However, when we use the intern() method on k2, it returns the string object that is in the string pool or adds it to the pool and returns the new object. //k2 is added to String Pool
 // When we compare k1 and k2.intern() using the == operator, it returns *true* because both references now refer to the same object in the string pool. //now both k1 and k2 are present inside String Pool or have same address i.e. both k1 and k2 now pointing to same object in the String Pool inside the heap memory
