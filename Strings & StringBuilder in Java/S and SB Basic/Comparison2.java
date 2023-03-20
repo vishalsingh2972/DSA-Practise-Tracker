@@ -54,6 +54,7 @@ public class Comparison2 {
 
         System.out.println(l1==l2); //false as different locations in heap
         System.out.println(l1.equals(l2)); //false as value is different for both
+        
         System.out.println(l1==l2.intern());//now l2 is added to the String Pool, but still l1 and l2 values are different, so l2 is added inside the String Pool but at a different location than l1, i.e. l1 and l2 are different objects and are both present at 2 different locations even inside the String Pool
 
 //https://www.linkedin.com/feed/update/urn:li:groupPost:3983267-7043062235493011457?commentUrn=urn%3Ali%3Acomment%3A%28groupPost%3A3983267-7043062235493011457%2C7043139835951210496%29
