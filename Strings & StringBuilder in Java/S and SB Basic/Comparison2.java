@@ -34,7 +34,7 @@ public class Comparison2 {
 //Note: https://stackoverflow.com/questions/61588647/how-is-string-concatenation-working-in-following
         //https://stackoverflow.com/questions/75601214/why-is-string-concatenation-giving-true-for-one-case-and-false-for-another?noredirect=1#comment133379699_75601214
 
-//Example 3
+//Example 3 //Java .intern() method
 
         //k1 and k2 ke names same hain
         String k1 = "Java"; //k1 is in String Pool
