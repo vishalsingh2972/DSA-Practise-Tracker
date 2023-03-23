@@ -13,11 +13,11 @@ public class H1 {
 //        int[] nums2 = {1,2,3,4,5,6,7,8};
 
         int[] nums1 = {1,2,3,4};
-        int[] nums2 = {1,2,3,4,5,6,7,8}; //getting wrong output
+        int[] nums2 = {1,2,3,4,5,6,7,8};
 
 //        System.out.println(findMedianSortedArrays1(nums1,nums2)); // Brute Force
 
-        System.out.println(findMedianSortedArrays2(nums1,nums2));
+        System.out.println(findMedianSortedArrays2(nums1,nums2)); // Optimized using Binary Search
 
     }
 
@@ -36,7 +36,7 @@ public class H1 {
         int start = 0;
         int end = A.length-1;
 
-        while(start < end) {
+        while(start <= end) {
             int i = start + (end - start) / 2; //i is index of mid in A array
 
             int j = half - i - 2; //pointer for B //index of end point of number of elements in B
@@ -44,7 +44,7 @@ public class H1 {
             int Aleft = A[i] < 0 ? Integer.MIN_VALUE : A[i]; //rightmost/largest element in A in the left partition
             int Aright = A[i + 1] > A.length ? Integer.MAX_VALUE : A[i + 1]; //leftmost/smallest element in A in the right partition
 
-            int Bleft = B[j] < 0 ? Integer.MIN_VALUE : B[i]; //rightmost/largest element in B in the left partition
+            int Bleft = B[j] < 0 ? Integer.MIN_VALUE : B[j]; //rightmost/largest element in B in the left partition
             int Bright = B[j + 1] > B.length ? Integer.MAX_VALUE : B[j + 1]; //leftmost/smallest element in B in the right partition
 
 
@@ -58,7 +58,7 @@ public class H1 {
 
                 //when total = even
                 else { //total%2 == 0 case
-                    double ans = (Integer.max(Bleft, Aleft) + Integer.min(Bright, Aright)) / 2;
+                    double ans = (Integer.max(Bleft, Aleft) + Integer.min(Bright, Aright)) / 2.0;
                     return ans;
                 }
             }
