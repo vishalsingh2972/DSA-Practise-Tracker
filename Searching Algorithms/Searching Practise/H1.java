@@ -41,11 +41,11 @@ public class H1 {
 
             int j = half - i - 2; //pointer for B //index of end point of number of elements in B
 
-            int Aleft = A[i] < 0 ? Integer.MIN_VALUE : A[i]; //rightmost/largest element in A in the left partition
-            int Aright = A[i + 1] > A.length ? Integer.MAX_VALUE : A[i + 1]; //leftmost/smallest element in A in the right partition
+            int Aleft = i < 0 ? Integer.MIN_VALUE : A[i]; //rightmost/largest element in A in the left partition
+            int Aright = i + 1 > A.length - 1 ? Integer.MAX_VALUE : A[i + 1]; //leftmost/smallest element in A in the right partition
 
-            int Bleft = B[j] < 0 ? Integer.MIN_VALUE : B[j]; //rightmost/largest element in B in the left partition
-            int Bright = B[j + 1] > B.length ? Integer.MAX_VALUE : B[j + 1]; //leftmost/smallest element in B in the right partition
+            int Bleft = j < 0 ? Integer.MIN_VALUE : B[j]; //rightmost/largest element in B in the left partition
+            int Bright = j + 1 > B.length - 1 ? Integer.MAX_VALUE : B[j + 1]; //leftmost/smallest element in B in the right partition
 
 
             if (Aleft <= Bright && Bleft <= Aright) { //if this condition satisfies our partitions are correctly cut
