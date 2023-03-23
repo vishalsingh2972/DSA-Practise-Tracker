@@ -3,9 +3,6 @@ import java.util.Arrays;
 public class H1 {
     public static void main(String[] args) {
 
-//        int[] nums1 = {1,2};
-//        int[] nums2 = {3,4};
-
 //        int[] nums1 = {1,2,3,4,5};
 //        int[] nums2 = {1,2,3,4,5,6,7,8};
 
@@ -15,11 +12,11 @@ public class H1 {
 //        int[] nums1 = {1,2,3,4};
 //        int[] nums2 = {1,2,3,4,5,6,7,8};
 
-//        int[] nums1 = {1, 3};
-//        int[] nums2 = {2};
-
-        int[] nums1 = {1,2};
-        int[] nums2 = {3,4};
+        int[] nums1 = {1, 3};
+        int[] nums2 = {2};  //getting wrong output for this , need to check once
+ 
+//        int[] nums1 = {1,2};
+//        int[] nums2 = {3,4};
 
 //        System.out.println(findMedianSortedArrays1(nums1,nums2)); // Brute Force
 
@@ -50,9 +47,10 @@ public class H1 {
         //doing Binary Search on the smaller array i.e array int[] A
         int start = 0;
         int end = A.length - 1;
+        double ans = 0.0;
 
-        while (true) {
-            int i = Math.floorDiv(start + end, 2); //i is index of mid in A array
+        while (start <= end) {
+            int i = start + (end-start)/2; //i is index of mid in A array
 
             int j = half - i - 2; //pointer for B //index of end point of number of elements in B
 
@@ -67,14 +65,14 @@ public class H1 {
 
                 //when total = odd
                 if (total % 2 != 0) {
-                    double ans = Integer.min(Aright, Bright);
-                    return ans;
+                    ans = Math.min(Aright, Bright);
+                    break;
                 }
 
                 //when total = even
                 else { //total%2 == 0 case
-                    double ans = (Integer.max(Bleft, Aleft) + Integer.min(Bright, Aright)) / 2.0;
-                    return ans;
+                    ans = (Math.max(Bleft, Aleft) + Math.min(Bright, Aright)) / 2.0;
+                    break;
                 }
             } else if (Aleft > Bright) {
                 end = i - 1;
@@ -83,9 +81,10 @@ public class H1 {
             }
 
         }
+        return ans;
         // return -1; //no need of return as while(true) will run infinitely and will somehow each some or the other return statement inside while
     }
-    
+
 
 // Brute Force
     public static double findMedianSortedArrays1(int[] nums1, int[] nums2) {
