@@ -19,3 +19,4 @@ public class NumbersExampleRecursion {
 
 }
 
+// a function that calls itself is Recursion
