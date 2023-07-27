@@ -23,7 +23,7 @@ public class NumbersExample {
 
     static void print4(int n){
         System.out.println(n);
-        print5(5);
+        print5( 5);
     }
 
     static void print5(int n){
@@ -37,6 +37,7 @@ public class NumbersExample {
 
 //VVI
 // all the function calls that happen in a programming language they go into the stack memory |_|
-// while the function is not finished executing it will remain in the stack memory
+// - while the function is not finished executing it will remain in the stack memory
 // in java the first function that is called is the main function so the main function is the one that will go first into the stack and the last function hat will come out of the stack, and when a function is staying inside the stack it basically means that function call is currently going on
+// - when a function finishes executing, it is removed from the stack and the flow of the program is restored to the place where that function was called
 
