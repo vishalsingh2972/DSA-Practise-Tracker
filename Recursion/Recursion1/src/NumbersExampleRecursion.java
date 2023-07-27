@@ -3,41 +3,19 @@ public class NumbersExampleRecursion {
         // write a function that takes in a number and prints it
         // print first 5 numbers: 1 2 3 4 5
 
-        print1(1);
+        print(1);
     }
 
-    static void print1(int n){
-        System.out.println(n);
-        print2(2);
-    }
+    static void print(int n){ //print() function
 
-    static void print2(int n){
-        System.out.println(n);
-        print3(3);
-    }
+        if(n == 5){
+            System.out.println(n);
+            return; // return statement here will return to the caller of the function that it is present in (i.e. here return; is present in/inside print() function), which is the print(1) line.
+        }
 
-    static void print3(int n){
         System.out.println(n);
-        print4(4);
-    }
-
-    static void print4(int n){
-        System.out.println(n);
-        print5( 5);
-    }
-
-    static void print5(int n){
-        System.out.println(n);
+        print(n+1);
     }
 
 }
-
-// - function calling another function
-// - all functions have 1 thing in common - the body and the definition of the functions is same
-
-//VVI
-// all the function calls that happen in a programming language they go into the stack memory |_|
-// - while the function is not finished executing it will remain in the stack memory
-// in java the first function that is called is the main function so the main function is the one that will go first into the stack and the last function hat will come out of the stack, and when a function is staying inside the stack it basically means that function call is currently going on
-// - when a function finishes executing, it is removed from the stack and the flow of the program is restored to the place where that function was called
 

@@ -26,6 +26,7 @@ public class NumbersExample {
         print5( 5);
     }
 
+    //function body here changes
     static void print5(int n){
         System.out.println(n);
     }
