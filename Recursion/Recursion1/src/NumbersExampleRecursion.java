@@ -8,9 +8,9 @@ public class NumbersExampleRecursion {
 
     static void print(int n){ //print() function
 
-        if(n == 5){
+        if(n == 5){ // Base Condition in Recursion
             System.out.println(n);
-            return; // return statement here will return to the caller of the function that it is present in (i.e. here return; is present in/inside print() function), which is the print(1) line.
+            return; // return statement here will return to the caller of the function that it is present in (i.e. here return; will first return to print(n+1); where n=4 and from there it will return to the print() function which is the print(1) line)
         }
 
         System.out.println(n);
@@ -20,3 +20,4 @@ public class NumbersExampleRecursion {
 }
 
 // a function that calls itself is Recursion
+// Base Condition in Recursion: It is a condition where our Recursion will stop making new calls - this is a simple if condition
