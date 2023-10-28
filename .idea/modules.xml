@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Recursion/14-recursion/14-recursion.iml" filepath="$PROJECT_DIR$/Recursion/14-recursion/14-recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays &amp; ArrayList/AA Basic/AA Basic.iml" filepath="$PROJECT_DIR$/Arrays &amp; ArrayList/AA Basic/AA Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays &amp; ArrayList/AA Practise/AA Practise.iml" filepath="$PROJECT_DIR$/Arrays &amp; ArrayList/AA Practise/AA Practise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/BS Algo/BS Algo.iml" filepath="$PROJECT_DIR$/Searching Algorithms/BS Algo/BS Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional Loops/CL Practise/Beginner/Beginner.iml" filepath="$PROJECT_DIR$/Conditional Loops/CL Practise/Beginner/Beginner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Bubble Sort/Bubble Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional Loops/CL Basic/CL Basic.iml" filepath="$PROJECT_DIR$/Conditional Loops/CL Basic/CL Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional Loops/Conditional Loops.iml" filepath="$PROJECT_DIR$/Conditional Loops/Conditional Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Cyclic Sort/Cyclic Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Cyclic Sort/Cyclic Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Practise-Tracker.iml" filepath="$PROJECT_DIR$/.idea/DSA-Practise-Tracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions &amp; Methods/FM Basic/FM Basic.iml" filepath="$PROJECT_DIR$/Functions &amp; Methods/FM Basic/FM Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions &amp; Methods/FM Practise/FM Practise.iml" filepath="$PROJECT_DIR$/Functions &amp; Methods/FM Practise/FM Practise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/First Java/First Java.iml" filepath="$PROJECT_DIR$/First Java/First Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Insertion Sort/Insertion Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Insertion Sort/Insertion Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional Loops/CL Practise/Intermediate/Intermediate.iml" filepath="$PROJECT_DIR$/Conditional Loops/CL Practise/Intermediate/Intermediate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/LS Algo/LS Algo.iml" filepath="$PROJECT_DIR$/Searching Algorithms/LS Algo/LS Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 1/OOP 1.iml" filepath="$PROJECT_DIR$/OOPS/OOP 1/OOP 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 2/OOP 2.iml" filepath="$PROJECT_DIR$/OOPS/OOP 2/OOP 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 3/OOP 3.iml" filepath="$PROJECT_DIR$/OOPS/OOP 3/OOP 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 4/OOP 4.iml" filepath="$PROJECT_DIR$/OOPS/OOP 4/OOP 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 5/OOP 5.iml" filepath="$PROJECT_DIR$/OOPS/OOP 5/OOP 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 6/OOP 6.iml" filepath="$PROJECT_DIR$/OOPS/OOP 6/OOP 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOP 7/OOP 7.iml" filepath="$PROJECT_DIR$/OOPS/OOP 7/OOP 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional Loops/CL Practise/PatternsPractise/PatternsPractise.iml" filepath="$PROJECT_DIR$/Conditional Loops/CL Practise/PatternsPractise/PatternsPractise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion1/Recursion1.iml" filepath="$PROJECT_DIR$/Recursion/Recursion1/Recursion1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Algorithms/SearchingPractise/SearchingPractise.iml" filepath="$PROJECT_DIR$/Searching Algorithms/SearchingPractise/SearchingPractise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" filepath="$PROJECT_DIR$/Sorting Algorithms/Selection Sort/Selection Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings &amp; StringBuilder in Java/Strings &amp; StringBuilder in Java.iml" filepath="$PROJECT_DIR$/Strings &amp; StringBuilder in Java/Strings &amp; StringBuilder in Java.iml" />
+    </modules>
+  </component>
+</project>
