@@ -140,8 +140,8 @@
     - Binary Search Trees
     - DFS
     - BFS
-    - AVL Trees
-    - Segment Tree
+    - [AVL Trees](https://youtu.be/CVA85JuJEn0?si=TxN358rFP60Kd4Rm)
+    - [Segment Tree](https://youtu.be/ciHThtTVNto?si=7-O9is1gLBu6JIzA)
 - Heaps
     - Introduction
     - Theory
@@ -158,8 +158,8 @@
     - Limitations and how to solve
     - Map using LinkedList
     - Map using Hash
-    - Count Sort
-    - Radix Sort
+    - [Count Sort](https://youtu.be/FOo820lJV1Y?si=sw13iFTMXSc0gWOD)
+    - [Radix Sort](https://youtu.be/mLi6VQDqAOs?si=iNArZzL-5h19jeZY)
     - Chaining
     - Probing
     - Huffman-Encoder
