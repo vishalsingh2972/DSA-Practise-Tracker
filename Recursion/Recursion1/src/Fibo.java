@@ -30,5 +30,9 @@ public class Fibo {
 // 5) See how the values and what type of values (int, string, etc.) are returned at each step, see where the function call will come out. In the end you will come out of the main function
 
 //✨🌟🧨 VVVVIP 🧨✨🌟 (variables in recursion)
+// you can have variables in 3 places in recursion - 1) in arguments 2) in return type 3) in body of the function
+// Example : Binary Search with Recursion ===> recurrence relation is F(N) = O(1) + F(N/2), it means if you want to apply binary search on the array of size N then do a step that takes constant amount of time + search in the half of the array
+
+//✨🌟🌸 VVVVIP 🌸✨🌟 (types of recurrence relation)
 
 
