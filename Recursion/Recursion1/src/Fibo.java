@@ -16,3 +16,15 @@ public class Fibo {
     }
 
     }
+
+//VVIP 🎇✨🎆🌟
+//How to understand and approach a problem - steps :
+// 1) Identify if you can break down the problem into smaller problems.
+// 2) Write the recurrence relation if needed.
+// 3) Draw the recursive tree.
+// 4) About the tree: (points to follow when learning about the tree)
+        // See the flow of functions, how they are getting in stack
+        // Identify and focus on left tree calls and right tree calls
+        // Draw the tree and pointers again and again using pen and paper
+        // Use a debugger to see how the flow is working
+
