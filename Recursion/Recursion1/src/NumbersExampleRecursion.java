@@ -35,7 +35,7 @@ public class NumbersExampleRecursion {
 // Recursion helps us in breaking down bigger problems into smaller problems
 
 // Visualizing Recursion: by using Recursion Tree (also known as a recursive tree)
-// How to check whether a problem can be solved using Recursion - see if the problem can be broken down into smaller problems, and when we write Recursion in the form of a formula like Big Problem =  SmallProblem1 + SmallProblem2 it is called as Recurrence Relation, so any Recursive solution you can convert into the form of a formula and that is known as Recurrence Relation, for example in case of Fibonacci numbers F(N) = F(N-1) + F(N-2) is the Recurrence Relation.
+// How to check whether a problem can be solved using Recursion - see if the problem can be broken down into smaller problems, and when we write Recursion in the form of a formula like Big Problem =  SmallProblem1 + SmallProblem2 it is called as Recurrence Relation, so any Recursive solution you can convert into the form of a formula and that is known as Recurrence Relation, for example in case of Fibonacci numbers F(N) = F(N-1) + F(N-2) is the Recurrence Relation, basically when you write the Recursion in the form of a formula it is known as Recurrence Relation.
 // also in the above example Fibonacci numbers F(N) = F(N-1) + F(N-2), in this RHS can further be broken down as F(N-1) = F(N-2) + F(N-3) & F(N-2) = F(N-3) + F(N-4) and so on......this will continue till we reach the known values i.e F(0) = 0 and F(1) = 1,this is known as the Base Condition or Base Condition is represented by the answers we already know so in this case base condition is values F(0) = 0 and F(1) = 1, so now we understood how to figure out base condition when we are using Recursion.
 
 
