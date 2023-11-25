@@ -15,6 +15,7 @@ public class NumbersExampleRecursion {
 
         System.out.println(n); // body of the function // The body of a function is the part of the function that is executed when the function is called.
 
+//when we have the last statement in the function call - this is called tail recursion // this is the last function call
         print(n + 1); // recursive call // if you are calling a function again and again, you can treat it as a separate function call in the stack // i.e here the same function is being called again and again but every function call is being allotted a different set of memory allocation in the stack // basically here as many times as we call the same function it will take memory separately each time (explained more in {3} below)
     } //will first reach here once return; is hit
 
