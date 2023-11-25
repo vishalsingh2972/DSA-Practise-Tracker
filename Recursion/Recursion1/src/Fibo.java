@@ -27,4 +27,8 @@ public class Fibo {
         // Identify and focus on left tree calls and right tree calls
         // Draw the tree and pointers again and again using pen and paper
         // Use a debugger to see how the flow is working
+// 5) See how the values and what type of values (int, string, etc.) are returned at each step, see where the function call will come out. In the end you will come out of the main function
+
+//✨🌟🧨 VVVVIP 🧨✨🌟 (variables in recursion)
+
 
