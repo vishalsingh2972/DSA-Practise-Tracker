@@ -34,5 +34,10 @@ public class Fibo {
 // Example : Binary Search with Recursion ===> recurrence relation is F(N) = O(1) + F(N/2), it means if you want to apply binary search on the array of size N then do a step that takes constant amount of time + search in the half of the array
 
 //✨🌟🌸 VVVVIP 🌸✨🌟 (types of recurrence relation)
+// 1) Linear recurrence relation - Eg. Fibonacci number
+// 2) Divide and conquer recurrence relation (search space is being divided/reduced by a factor) - Eg. Binary search
+// so our search space is getting reduced much faster in Divide and conquer RR when compared to Linear RR, hence Divide and conquer RR is much more efficient whereas Linear RR is very inefficient
+// Linear RR is very inefficient because it is having multiple duplicate/repeated function calls // this problem can be solved using dynamic programming, dynamic programming means if in the recursion calls two or more recursion calls are doing the same work then don't compute it again and again
+
 
 
