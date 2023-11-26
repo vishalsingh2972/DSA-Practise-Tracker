@@ -3,7 +3,7 @@
 public class BS {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 55, 66, 78};
-        int target = 66;
+        int target = 78;
         System.out.println("The target is present at " + search(array, target, 0, array.length - 1) + " index position");
     }
 
