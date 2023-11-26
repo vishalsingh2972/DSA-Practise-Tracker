@@ -20,7 +20,7 @@ public class BS {
         }
 
         if(target < arr[m]){
-        //so now e = m - 1;
+            //so now e = m - 1;
             return search(arr, target, s, m - 1);
         }
 
