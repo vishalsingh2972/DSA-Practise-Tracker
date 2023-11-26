@@ -3,8 +3,9 @@
 public class BS {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 55, 66, 78};
-        int target = 78;
+        int target = 66;
         System.out.println("The target is present at " + search(array, target, 0, array.length - 1) + " index position");
+        //System.out.println(search(array, target, 0, array.length - 1));
     }
 
     static int search(int[] arr, int target, int s, int e){
