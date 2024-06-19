@@ -11,7 +11,7 @@ public class Fibo {
         if(n < 2){ //fibo(0) = 0; and fibo(1) = 1; case
             return n;
         }
-//this is NOT tail recursion
+//this is NOT tail recursion as we are doing "adding" and "returning" like return fibo(n-1) + fibo(n-2); and not just fibo(n-1) ---> (tail recursion)
         return fibo(n-1) + fibo(n-2);
     }
 
